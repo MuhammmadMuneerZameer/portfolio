@@ -9,13 +9,14 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAY2ufruE7Wn0vKcnnRT0mYa7KHn9zzfTc",
-  authDomain: "portfolio-4e184.firebaseapp.com",
-  projectId: "portfolio-4e184",
-  storageBucket: "portfolio-4e184.appspot.com",
-  messagingSenderId: "489849133008",
-  appId: "1:489849133008:web:2e80a28b91504d5c140bd5",
-  measurementId: "G-9FWYCQSFVS"
+  apiKey: "AIzaSyAjTeI28fzbjJfECDOi-Jgbsyfa33Ur5Hg",
+  authDomain: "portfolioxt.firebaseapp.com",
+  databaseURL: "https://portfolioxt-default-rtdb.firebaseio.com",
+  projectId: "portfolioxt",
+  storageBucket: "portfolioxt.appspot.com",
+  messagingSenderId: "1051682893568",
+  appId: "1:1051682893568:web:933e01c081d3ad810d0de5",
+  measurementId: "G-HT3GTS1X8J"
 };
 
 // Initialize Firebase
