@@ -1,0 +1,37 @@
+
+.Navbar{
+    background-color: #003049;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    
+   
+}
+a{
+    color: #eae2b7;
+    text-decoration: none;
+    /* justify-content: space-between; */
+    
+   
+
+}
+.nav{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    min-width: 80%;
+    margin: 20px auto;
+    
+}
+
+@media (max-width:670px) {
+
+  *{
+    font-size: 10px
+  };
+  .nav{
+    font-size: 10px;
+    width: 100%;
+    
+  }
+}
